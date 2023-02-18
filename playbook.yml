@@ -4,5 +4,5 @@
   tasks:
     - name: copy file
       copy:
-        src: /var/lib/jenkins/workspace/ansible-jenkins2/
+        src: /var/lib/jenkins/workspace/jenkins-ansible2/
         dest: /var/www/html/
