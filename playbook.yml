@@ -4,5 +4,5 @@
   tasks:
     - name: copy file
       copy:
-        src: /var/lib/jenkins/workspace/pipeline/index.html
-        dest: /var/www/html/index.html
+        src: /var/lib/jenkins/workspace/pipeline/*
+        dest: /var/www/html/
