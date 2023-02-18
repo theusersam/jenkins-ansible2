@@ -1,0 +1,8 @@
+- hosts: all
+  name: copy html file
+  become: true
+  tasks:
+    - name: copy file
+      copy:
+        src: /var/lib/jenkins/workspace/pipeline/index.html
+        dest: /var/www/html/index.html
